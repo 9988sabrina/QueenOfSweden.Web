@@ -1,0 +1,52 @@
+body {
+    font-family: 'Georgia', serif;
+    background-color: #fcebed;
+    color: #2b2b2b;
+}
+
+.brand-logo {
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    color: #bfa052;
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.logo-icon {
+    height: 32px;
+    margin-right: 10px;
+}
+
+.carousel img {
+    max-height: 500px;
+    object-fit: cover;
+    border-radius: 20px;
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 60px 20px;
+    background-color: #fff6f8;
+}
+
+.feature-box {
+    background-color: #fff8f3;
+    padding: 30px;
+    border-radius: 12px;
+    width: 280px;
+    text-align: center;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
+
+.site-footer {
+    background-color: #bfa052;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 80px;
+}
